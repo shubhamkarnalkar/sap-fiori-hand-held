@@ -1,0 +1,3 @@
+type HomeScreenModel = {
+    input: string,
+};

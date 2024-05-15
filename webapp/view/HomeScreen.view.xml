@@ -4,6 +4,8 @@
     <Page id="page" title="{i18n>title}">
         <content>
         <Button id="home-button" press="goToTransactions" text="{i18n>transactions}" ></Button>
+        <Input id="_IDGenInput1" liveChange="true" name="Value"></Input>
+        <Text id="_IDGenText1" text="{}"></Text>
         </content>
     </Page>
 </mvc:View>
