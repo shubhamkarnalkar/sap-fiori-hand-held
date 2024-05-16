@@ -1,6 +1,5 @@
 import Controller from "sap/ui/core/mvc/Controller";
 import MessageToast from "sap/m/MessageToast";
-import JSONModel from "sap/ui/model/json/JSONModel";
 
 /**
  * @namespace handheldd.controller
@@ -14,10 +13,5 @@ export default class HomeScreen extends Controller {
 
     public goToTransactions(): void{
         MessageToast.show("Hey there");
-        let Oml: HomeScreenModel = {
-            input: ""
-        };
-        let oModel = new JSONModel();
-        this.getView()?.setModel(oModel: oModel);
     }
 }
