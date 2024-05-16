@@ -9,9 +9,12 @@
     "sapui5"
   ],
   "main": "webapp/index.html",
+<<<<<<< HEAD
   "dependencies": {
     "@sap/cds": "^7.9.1"
   },
+=======
+>>>>>>> afa8450f415bf6926f7210ad66e0743fc398b874
   "devDependencies": {
     "@babel/eslint-parser": "7.14.7",
     "@sap-ux/eslint-plugin-fiori-tools": "^0.4.0",
@@ -24,8 +27,12 @@
     "eslint-plugin-fiori-custom": "2.6.7",
     "typescript": "^5.1.6",
     "ui5-middleware-livereload": "^3.0.3",
+<<<<<<< HEAD
     "ui5-middleware-serveframework": "^3.1.1",
     "ui5-tooling-transpile": "^3.4.1"
+=======
+    "ui5-tooling-transpile": "^3.3.7"
+>>>>>>> afa8450f415bf6926f7210ad66e0743fc398b874
   },
   "scripts": {
     "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#handheldd-display\"",
