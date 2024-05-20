@@ -1,16 +1,42 @@
-<mvc:View controllerName="handheldd.controller.HomeScreen"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <content>
-        <Button id="home-button" press="goToTransactions" text="{i18n>transactions}" ></Button>
-        
-    <Input
-      value="{/recipient/name}"
-      description="Hello {/recipient/name}"
-      valueLiveUpdate="true"
-      width="60%"/>
-    
-        </content>
-    </Page>
+<mvc:View
+    controllerName="handheldd.controller.HomeScreen"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="_IDGenShell1">
+        <App id="_IDGenApp1">
+            <pages>
+                <Page
+                    id="id1"
+                    title="{i18n>title}"
+                >
+                    <content>
+                        <Button
+                            id="but-trans"
+                            press="onTransactionsButtonPress"
+                            text="{i18n>transactions}"
+                        />
+
+                        <Input
+                            id="_IDGenInput1"
+                            value="{/recipient/name}"
+                            description="Hello {/recipient/name}"
+                            valueLiveUpdate="true"
+                            width="60%"
+                        />
+                        <Button
+                            id="_IDGenButton1"
+                            text="{i18n>openDFrag}"
+                            press="onOpenDialog"
+                        />
+                        <mvc:XMLView
+                            id="_IDGenXMLView1"
+                            viewName="handheldd.view.InvoiceList"
+                        />
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>

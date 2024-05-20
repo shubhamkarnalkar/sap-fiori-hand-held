@@ -1,0 +1,21 @@
+<mvc:View
+    controllerName="handheldd.controller."
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+>
+    <List
+        id="_IDGenList1"
+        headerText="{i18n>invoiceListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{invoice>/Invoices}"
+    >
+        <items>
+            <ObjectListItem
+                id="_IDGenObjectListItem1"
+                title="{invoice>Quantity} x {invoice>ProductName}"
+            />
+        </items>
+    </List>
+</mvc:View>

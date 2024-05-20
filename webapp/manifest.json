@@ -59,6 +59,10 @@
         }
       }
     },
+    "invoice": {
+      "type": "sap.ui.model.json.JSONModel",
+      "uri": "model/localInvoices.json"
+    },
     "resources": {
       "css": [
         {

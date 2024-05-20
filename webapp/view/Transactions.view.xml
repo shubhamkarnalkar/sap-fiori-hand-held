@@ -1,0 +1,13 @@
+<mvc:View
+    controllerName="handheldd.controller.Transactions"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+>
+    <Page
+        id="_IDGenPage1"
+        title="{i18n>transactions"
+    >
+        <content />
+    </Page>
+</mvc:View>
